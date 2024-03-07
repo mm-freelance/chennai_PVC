@@ -33,16 +33,16 @@
 
   <!-- ======= Top Bar ======= -->
   <section id="topbar" class="d-flex align-items-center">
-    <div class="container d-flex justify-content-center justify-content-md-between">
-        <div class="social-links d-none d-md-flex align-items-center">
-            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+    <div class="container d-flex flex-column-reverse flex-md-row justify-content-center justify-content-md-between gap-1">
+        <div class="social-links d-flex align-items-center justify-content-center">
+            <a href="#" class="twitter pb-1 pb-md-0"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="facebook pb-1 pb-md-0"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram pb-1 pb-md-0"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="linkedin pb-1 pb-md-0"><i class="bi bi-linkedin"></i></i></a>
         </div>
-        <div class="contact-info d-flex align-items-center">
-          <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:chennaipvcinteriors@gmail.com">chennaipvcinteriors@gmail.com</a></i>
-          <i class="bi bi-phone d-flex align-items-center ms-4"><span>+91 9361273195</span></i>
+        <div class="contact-info d-flex align-items-center justify-content-between">
+          <i class="bi bi-envelope d-flex align-items-center text-truncate" style="min-width: 150px;"><a href="mailto:chennaipvcinteriors@gmail.com">chennaipvcinteriors@gmail.com</a></i>
+          <i class="bi bi-phone d-flex align-items-center ms-1 text-truncate" style="min-width: 150px;"><span>+91 9361273195</span></i>
         </div>
     </div>
   </section>
@@ -51,7 +51,7 @@
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="index.html">Chennai PVC Interiors<span>.</span></a></h1>
+      <img src="./assets//img/logo-3.jpg" style="width: 135px; height: 50px;" alt="logo" />
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo-3.jpg" alt=""></a>-->
 
@@ -78,7 +78,59 @@
   </section><!-- End Hero -->
 
   <main id="main">
-
+    <section>
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="7" aria-label="Slide 8"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="8" aria-label="Slide 9"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/img/banners/banner1.jpg" class="d-block w-100 object-fit-contain" alt="Banner1">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/banners/banner2.jpg" class="d-block w-100" alt="Banner2">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/banners/banner3.jpg" class="d-block w-100" alt="Banner3">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/banners/banner4.jpg" class="d-block w-100 object-fit-contain " alt="Banner4">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/banners/banner5.jpg" class="d-block w-100" alt="Banner5">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/banners/banner6.jpg" class="d-block w-100" alt="Banner6">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/banners/banner7.jpg" class="d-block w-100" alt="Banner7">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/banners/banner8.jpg" class="d-block w-100" alt="Banner8">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/banners/banner9.jpg" class="d-block w-100" alt="Banner9">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    
     <!-- ======= About Section ======= -->
     <section id="about" class="about section-bg">
       <div class="container" data-aos="fade-up">
@@ -89,12 +141,50 @@
           <p>We are indeed privileged to introduce you to the India’s premier home PVC furnishing company at your doorstep. Our motto is to fulfill your desire within your budget. We have been designing beautiful homes and offices since 2008. So far we have extended our quality service to more than 1000 customers, based on their needs. Chennai PVC Interiors is a reputed and reliable service provider.
 We are one of the leading PVC & UPVC  interior decorators especially. PVC & UPVC Cupboards , PVC & UPVC Modular Kitchen, PVC & UPVC Loft Covering many more.</p>
         </div>
-          </div>
-        </div>
-
       </div>
-    </section><!-- End About Section -->
+    </section>
+    
+    <!-- End About Section -->
 
+    <section id="why-us" class="featured-services">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Our Aim</h2>
+          <h3>Find Out More <span>Our Aim</span></h3>
+        </div>
+        <div class="container ">
+          <div class="row">
+            <div class="row-6 col-lg-6">
+              <div class="d-flex align-items-stretch row">
+                <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                  <h4 class="title"><span>Our Aim</span></h4>
+                  <p class="description">Our formost Aim is To keep each and every client of ours fully satisfied and contended.We just try to give the best to our existing client so that if he gets fully satisfied</p>
+                </div>
+              </div>
+    
+              <div class="d-flex align-items-stretch row">
+                <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+                  <h4 class="title"><span>Client Satisfaction</span></h4>
+                  <p class="description">As an organization, we aim at offering maximum satisfaction to clients at all levels. Products being offered by us are high in quality and are known for their features, which make them different from the products of similar type available in market.</p>
+                </div>
+              </div>
+    
+              <div class="d-flex align-items-stretch row">
+                <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+                  <h4 class="title"><span>Quality Assurance</span></h4>
+                  <p class="description">As our's is quality oriented organization, we believe in offering not only high grade products but best services too. Quality analysts working with us conduct strict tests of every product sourced on devised parameters.</p>
+                </div>
+              </div>
+            </div>
+          <div class="row-6 col-lg-6">
+            <div class="d-flex justify-content-center align-items-center h-100">
+              <iframe src="https://www.youtube.com/embed/CbsxymDta64" style="height: 450px;" class="w-100 " title="YouTube video" allowfullscreen></iframe>
+            </div>
+          </div>
+          </div>
+      </div>
+      </div>
+    </section>
 
     <!-- ======= Skills Section ======= -->
     <!-- <section id="skills" class="skills">
