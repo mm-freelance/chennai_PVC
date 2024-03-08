@@ -191,8 +191,8 @@ h6 {
 }
 
 #header .logo img {
-  width: 200px; 
-  height: 100px; 
+  width: 175px; 
+  height: 85px;
 }
 
 .scrolled-offset {
@@ -1139,7 +1139,7 @@ section {
 # Testimonials
 --------------------------------------------------------------*/
 .testimonials {
-  padding: 80px 0;
+  padding: 50px 0;
   background: url("../img/testimonials-bg.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
