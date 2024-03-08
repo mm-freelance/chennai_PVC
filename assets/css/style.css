@@ -117,11 +117,11 @@ h6 {
 --------------------------------------------------------------*/
 #topbar {
   background: #106eea;
-  height: 40px;
+  height: 50px;
   font-size: 14px;
   transition: all 0.5s;
   color: #fff;
-  padding: 0;
+  padding: ;
 }
 
 #topbar .contact-info i {
@@ -131,7 +131,7 @@ h6 {
 
 #topbar .contact-info i a,
 #topbar .contact-info i span {
-  padding-left: 5px;
+  padding-left: 10px;
   color: #fff;
 }
 
