@@ -1170,12 +1170,11 @@ section {
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 650px;
+  height: 425px;
 }
 
 .testimage-container {
-  width: 700px;
-  height: 300px;
+  height: 450px;
   margin: 0px;
   display: flex;
   align-items: center;
