@@ -963,22 +963,6 @@ section {
   margin-top: 35px;
 }
 
-.pvc .content ul i {
-  background: #fff;
-  box-shadow: 0px 6px 15px rgba(16, 110, 234, 0.12);
-  font-size: 24px;
-  padding: 20px;
-  margin-right: 15px;
-  color: #106eea;
-  border-radius: 50px;
-}
-
-.pvc-contain {
-  background: #fff;
-  box-shadow: 0px 6px 15px rgba(16, 110, 234, 0.12);
-  border-radius: 50px;
-}
-
 .pvc .content ul h5 {
   font-size: 18px;
   color: #555555;
